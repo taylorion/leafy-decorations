@@ -13,6 +13,7 @@ html {
 
 .logo {
   text-align: center;
+  color: #fff;
 }
 
 .nav {
@@ -21,17 +22,37 @@ html {
 
 .nav a {
   text-decoration: none;
+  background-color: #467366;
+  border-radius: 8px;
+  border: 3px solid #2d5a4d;
 }
 
 .nav a:hover {
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #145b1d;
+  background-color: #fff;
 
 }
 
 .banner {
+  background-image: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%), url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-top: 188px;
 
 }
 
 .banner-content {
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: 1em 0;
+  color: #fff;
+  padding-top: 110px;
 
 }
 
